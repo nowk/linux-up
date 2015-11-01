@@ -1,0 +1,14 @@
+
+# secondary drive mount
+#
+# echo `blkid /dev/sdb1 | awk '{print$2}' | sed -e 's/"//g'` /mnt/var   ext4   noatime,nobarrier   0   0 >> /etc/fstab"'
+# -> UUID=acd925b6-695e-408f-8138-c1a781671cb5 /mnt/var ext4 noatime,nobarrier 0 0
+
+# mounts
+#
+# /mnt/var/lib/docker     /var/lib/docker     none bind 0 0
+# /mnt/var/lib/rkt        /var/lib/rkt        none bind 0 0
+# /mnt/var/lib/postgresql /var/lib/postgresql none bind 0 0
+# /mnt/var/lib/btsync     /var/lib/btsync     none bind 0 0
+# /mnt/var/data           /data               none bind 0 0
+# /mnt/var/devs           /home/nowk/devs     none bind 0 0
