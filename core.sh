@@ -55,4 +55,8 @@ git clone https://github.com/jonas/tig.git \
 	&& cd .. \
 	&& sudo rm -rf tig
 
+# additional deps
+sudo apt-get -y install \
+	xclip
+
 # vim: set filetype=sh :
