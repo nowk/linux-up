@@ -57,6 +57,7 @@ git clone https://github.com/jonas/tig.git \
 
 # additional deps
 sudo apt-get -y install \
-	xclip
+	xclip \
+	silversearcher-ag
 
 # vim: set filetype=sh :
