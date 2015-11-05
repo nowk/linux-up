@@ -2,7 +2,7 @@
 set -e
 
 # asian fonts
-sudo apt-get install tf-unfonts-core
+sudo apt-get install ttf-unfonts-core
 
 # google chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable-current_amd64.deb
