@@ -13,7 +13,8 @@ sudo apt-get -y install \
 	libncurses-dev \
 	make \
 	gcc \
-	automake
+	automake \
+	vim-athena
 
 # switch to home ~/
 cd ~/
