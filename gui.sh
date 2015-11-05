@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
 
+# drivers for the nvidia gt600
+# sudo apt-get install nvidia-driver nvidia-xconfig
+
 # asian fonts
 sudo apt-get install ttf-unfonts-core
 
