@@ -8,8 +8,17 @@ set -e
 # prior. But errors related to dbus-launch stop chrome from launching properly
 sudo apt-get install dbus-x11
 
-# asian fonts
-sudo apt-get install ttf-unfonts-core
+# xorg and fluxbox
+sudo apt-get -y install \
+	xorg \
+	fluxbox \
+	xcompmgr
+
+# fonts
+sudo apt-get -y install \
+	ttf-unfonts-core \
+	ttf-liberation \
+	ttf-mscorefonts-installer
 
 # google chrome
 curl -O https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
