@@ -31,7 +31,10 @@ ln -s ~/prospect/ ~/.prospect \
 	&& ln -s ~/.prospect/zshrc ~/.zshrc \
 	&& ln -s ~/.prospect/zshrc.local ~/.zshrc.local \
 	&& ln -s ~/.prospect/oh-my-zsh/themes/normalt.zsh-theme ~/.oh-my-zsh/themes/normalt.zsh-theme \
-	&& ln -s ~/.prospect/fluxbox ~/.fluxbox
+	&& ln -s ~/.prospect/fluxbox ~/.fluxbox \
+	&& ln -s ~/.prospect/Xresources ~/.Xresources
+
+xrdb ~/.Xresources
 
 # specifically checkout the unite-test branch
 cd ~/prospect && git co unite-test
