@@ -30,7 +30,8 @@ ln -s ~/prospect/ ~/.prospect \
 	&& mv ~/.zshrc ~/.zshrc.before-ln-s \
 	&& ln -s ~/.prospect/zshrc ~/.zshrc \
 	&& ln -s ~/.prospect/zshrc.local ~/.zshrc.local \
-	&& ln -s ~/.prospect/oh-my-zsh/themes/normalt.zsh-theme ~/.oh-my-zsh/themes/normalt.zsh-theme
+	&& ln -s ~/.prospect/oh-my-zsh/themes/normalt.zsh-theme ~/.oh-my-zsh/themes/normalt.zsh-theme \
+	&& ln -s ~/.prospect/fluxbox ~/.fluxbox
 
 # specifically checkout the unite-test branch
 cd ~/prospect && git co unite-test
