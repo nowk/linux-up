@@ -36,9 +36,6 @@ ln -s ~/prospect/ ~/.prospect \
 
 xrdb ~/.Xresources
 
-# specifically checkout the unite-test branch
-cd ~/prospect && git co unite-test
-
 # install vim plugins
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # send <enter>
